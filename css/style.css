@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#login-form.hidden {
+  display: none;
+}
+
+#clock {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#login-form input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+#login-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.todo-input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  width: 20rem;
+  text-align: center;
+}
+
+.todo-items {
+  list-style-type: square;
+  padding: 0;
+}
+
+.todo-items li {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#weather {
+  font-size: 1.5rem;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
